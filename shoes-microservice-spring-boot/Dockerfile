@@ -1,7 +1,4 @@
 FROM maven as build
-MAINTAINER sarat.e99@gmail.com Sarat Chandra E
-
-
 WORKDIR /app
 COPY . .
 RUN mvn install
